@@ -1,0 +1,21 @@
+[Files List]
+C:\Program Files\Aldec\Active-HDL 7.1\Vlib\Std/src/standard.vhd=S
+C:\Program Files\Aldec\Active-HDL 7.1\Vlib\IEEE/src/stdlogic.vhd=S
+C:\Program Files\Aldec\Active-HDL 7.1\Vlib\IEEE/src/arith.vhd=S
+C:\Program Files\Aldec\Active-HDL 7.1\Vlib\IEEE/src/unsigned.vhd=S
+c:\My_Designs\mos\mos6510/src/obuf.vhd=S
+c:\My_Designs\mos\mos6510/src/alu.vhd=S
+c:\My_Designs\mos\mos6510/src/reg_file.vhd=S
+c:\My_Designs\mos\mos6510/compile/smallmux.vhd=S
+c:\My_Designs\mos\mos6510/src/smallmux.vhd=S
+c:\My_Designs\mos\mos6510/src/mux.vhd=S
+c:\My_Designs\mos\mos6510/src/IR.vhd=S
+c:\My_Designs\mos\mos6510/src/PC.vhd=S
+c:\My_Designs\mos\mos6510/src/controller.vhd=S
+c:\My_Designs\mos\mos6510/src/memory.vhd=S
+c:\My_Designs\mos\mos6510/src/datapath.vhd=S
+c:\My_Designs\mos\mos6510/src/ctrl_unit.vhd=S
+c:\My_Designs\mos\mos6510/compile/microprocessor.vhd=S
+c:\My_Designs\mos\mos6510/src/microprocessor.vhd=S
+c:\My_Designs\mos\mos6510/compile/tb_mp.vhd=S
+c:\My_Designs\mos\mos6510/src/TB_mp.vhd=S

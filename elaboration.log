@@ -1,0 +1,35 @@
+elbread.dll ver. 1.0.5.375 Wed May 16 21:47:20 2018
+
+
+----------------------------------------
+Entity          | Architecture | Library
+----------------------------------------
+TB_MP           | behv         | mos6510
+microprocessor  | structure    | mos6510
+ctrl_unit       | struct       | mos6510
+datapath        | struct       | mos6510
+memory          | behv         | mos6510
+controller      | fsm          | mos6510
+pc              | behv         | mos6510
+ir              | behv         | mos6510
+mux             | behv         | mos6510
+smallmux        | behv         | mos6510
+reg_file        | behv         | mos6510
+alu             | behv         | mos6510
+obuf            | behv         | mos6510
+----------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+-----------------------------
+
+------------------------
+Configuration  | Library
+------------------------
+cfg_tb_mp      | mos6510
+------------------------

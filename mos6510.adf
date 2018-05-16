@@ -1,0 +1,91 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=mos6510
+
+[Library]
+mos6510=.\mos6510.lib
+
+[$LibMap$]
+mos6510=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/IR.vhd=-1
+/memory.bde=-1
+/alu.bde=-1
+/alu.vhd=-1
+/controller.vhd=-1
+/ctrl_unit.vhd=-1
+/Waveform Editor 1.awf=-1
+/memory.vhd=-1
+/microprocessor.bde=-1
+/microprocessor.vhd=-1
+/mux.vhd=-1
+/obuf.vhd=-1
+/PC.vhd=-1
+/reg_file.vhd=-1
+/smallmux.bde=-1
+/smallmux.vhd=-1
+/tb_mp.bde=-1
+/TB_mp.vhd=-1
+/datapath.vhd=-1
+
+[Files.Data]
+.\src\IR.vhd=VHDL Source Code
+.\src\memory.bde=Block Diagram
+.\src\alu.bde=Block Diagram
+.\src\alu.vhd=VHDL Source Code
+.\src\controller.vhd=VHDL Source Code
+.\src\ctrl_unit.vhd=VHDL Source Code
+.\src\Waveform Editor 1.awf=Waveform File
+.\src\memory.vhd=VHDL Source Code
+.\src\microprocessor.bde=Block Diagram
+.\src\microprocessor.vhd=VHDL Source Code
+.\src\mux.vhd=VHDL Source Code
+.\src\obuf.vhd=VHDL Source Code
+.\src\PC.vhd=VHDL Source Code
+.\src\reg_file.vhd=VHDL Source Code
+.\src\smallmux.bde=Block Diagram
+.\src\smallmux.vhd=VHDL Source Code
+.\src\tb_mp.bde=Block Diagram
+.\src\TB_mp.vhd=VHDL Source Code
+.\src\datapath.vhd=VHDL Source Code
+.\compile\microprocessor.vhd=VHDL Source Code
+.\compile\tb_mp.vhd=VHDL Source Code
+.\compile\memory.vhd=VHDL Source Code
+.\compile\alu.vhd=VHDL Source Code
+.\compile\smallmux.vhd=VHDL Source Code
+
+[file_out:/memory.bde]
+/\compile\memory.vhd=-1
+[file_out:/alu.bde]
+/\compile\alu.vhd=-1
+[file_out:/microprocessor.bde]
+/\compile\microprocessor.vhd=-1
+[file_out:/smallmux.bde]
+/\compile\smallmux.vhd=-1
+[file_out:/tb_mp.bde]
+/\compile\tb_mp.vhd=-1
